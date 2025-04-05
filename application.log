@@ -1594,3 +1594,37 @@ accept-language: ru,en-US;q=0.9,en;q=0.8,it;q=0.7,uk;q=0.6
 2025-04-05T03:08:03.018+03:00  INFO 11128 --- [check-ip ] [http-nio-8080-exec-4] c.check_ip.controller.IpInfoController   : New request from IP: 0:0:0:0:0:0:0:1, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
 2025-04-05T03:08:24.897+03:00  INFO 11128 --- [check-ip ] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-04-05T03:08:24.905+03:00  INFO 11128 --- [check-ip ] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-05T03:22:14.883+03:00  INFO 17228 --- [check-ip ] [restartedMain] com.check_ip.FraudDetectionApplication   : Starting FraudDetectionApplication using Java 21.0.4 with PID 17228 (D:\YUP\10___YNB_courses_free\idea project ynb\check-ip\target\classes started by ynb4m in D:\YUP\10___YNB_courses_free\idea project ynb\check-ip)
+2025-04-05T03:22:14.887+03:00 DEBUG 17228 --- [check-ip ] [restartedMain] com.check_ip.FraudDetectionApplication   : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-05T03:22:14.888+03:00  INFO 17228 --- [check-ip ] [restartedMain] com.check_ip.FraudDetectionApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-05T03:22:14.988+03:00  INFO 17228 --- [check-ip ] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-05T03:22:14.988+03:00  INFO 17228 --- [check-ip ] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-05T03:22:16.708+03:00  INFO 17228 --- [check-ip ] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-05T03:22:16.740+03:00  INFO 17228 --- [check-ip ] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-05T03:22:16.741+03:00  INFO 17228 --- [check-ip ] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-05T03:22:16.817+03:00  INFO 17228 --- [check-ip ] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-05T03:22:16.817+03:00  INFO 17228 --- [check-ip ] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1828 ms
+2025-04-05T03:22:17.469+03:00  INFO 17228 --- [check-ip ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-05T03:22:17.515+03:00  INFO 17228 --- [check-ip ] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-05T03:22:17.576+03:00  INFO 17228 --- [check-ip ] [restartedMain] com.check_ip.FraudDetectionApplication   : Started FraudDetectionApplication in 3.49 seconds (process running for 4.221)
+2025-04-05T03:22:28.774+03:00  INFO 17228 --- [check-ip ] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-05T03:22:28.780+03:00  INFO 17228 --- [check-ip ] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-04-05T03:26:55.870+03:00  INFO 5360 --- [check-ip ] [restartedMain] com.check_ip.FraudDetectionApplication   : Starting FraudDetectionApplication using Java 21.0.4 with PID 5360 (D:\YUP\10___YNB_courses_free\idea project ynb\check-loading\target\classes started by ynb4m in D:\YUP\10___YNB_courses_free\idea project ynb\check-loading)
+2025-04-05T03:26:55.873+03:00 DEBUG 5360 --- [check-ip ] [restartedMain] com.check_ip.FraudDetectionApplication   : Running with Spring Boot v3.4.4, Spring v6.2.5
+2025-04-05T03:26:55.875+03:00  INFO 5360 --- [check-ip ] [restartedMain] com.check_ip.FraudDetectionApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-04-05T03:26:56.007+03:00  INFO 5360 --- [check-ip ] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-05T03:26:56.008+03:00  INFO 5360 --- [check-ip ] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-05T03:26:57.673+03:00  INFO 5360 --- [check-ip ] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-04-05T03:26:57.700+03:00  INFO 5360 --- [check-ip ] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-05T03:26:57.701+03:00  INFO 5360 --- [check-ip ] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-05T03:26:57.771+03:00  INFO 5360 --- [check-ip ] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-05T03:26:57.771+03:00  INFO 5360 --- [check-ip ] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1762 ms
+2025-04-05T03:26:58.380+03:00  INFO 5360 --- [check-ip ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-04-05T03:26:58.425+03:00  INFO 5360 --- [check-ip ] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-04-05T03:26:58.439+03:00  INFO 5360 --- [check-ip ] [restartedMain] com.check_ip.FraudDetectionApplication   : Started FraudDetectionApplication in 3.456 seconds (process running for 4.352)
+2025-04-05T03:27:34.116+03:00  INFO 5360 --- [check-ip ] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-05T03:27:34.116+03:00  INFO 5360 --- [check-ip ] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-05T03:27:34.118+03:00  INFO 5360 --- [check-ip ] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-04-05T03:27:34.157+03:00  INFO 5360 --- [check-ip ] [http-nio-8080-exec-1] c.check_ip.controller.IpInfoController   : New request from IP: 0:0:0:0:0:0:0:1, User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+2025-04-05T03:27:39.849+03:00  INFO 5360 --- [check-ip ] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-05T03:27:39.863+03:00  INFO 5360 --- [check-ip ] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
