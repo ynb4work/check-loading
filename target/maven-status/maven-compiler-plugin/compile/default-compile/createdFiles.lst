@@ -1,0 +1,4 @@
+com\check_ip\service\IpDetectionService.class
+com\check_ip\FraudDetectionApplication.class
+com\check_ip\service\GeoIpService.class
+com\check_ip\controller\IpInfoController.class
