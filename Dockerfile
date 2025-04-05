@@ -1,12 +1,10 @@
 # Build stage
-FROM eclipse-temurin:21-jdk-jammy as builder
-WORKDIR /app
+FROM maven:3.8.5-openjdk-17 AS build
 COPY . .
-RUN ./mvnw clean package -DskipTests
+RUN mvn clean package -DskipTests
 
-# Runtime stage
-FROM eclipse-temurin:21-jre-jammy
-WORKDIR /app
+FROM openjdk:17.0.1-jdk-slim
+
 COPY --from=builder /app/target/*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-Dserver.port=$PORT", "-jar", "app.jar"]
